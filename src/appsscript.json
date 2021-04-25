@@ -1,0 +1,27 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Gdrive Folder Watcher",
+      "logoUrl": "https://www.gstatic.com/images/branding/product/1x/translate_24dp.png",
+      "layoutProperties": {
+        "primaryColor": "#2772ed"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "drive": {},
+    "docs" : {},
+    "slides" : {},
+    "sheets" : {}
+  }
+}
